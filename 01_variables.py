@@ -23,5 +23,5 @@ print("My first word '",first_word,"',and my second word: '",second_word,"'")
 
 
 #Variables assignment  by shell
-first_name = input("What's your name? s")
+first_name = input("What's your name?")
 print(first_name)
