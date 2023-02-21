@@ -35,10 +35,10 @@ print("----------------------")
 
 print("-------Anagram--------")
 
-def isAnagram(word_one, word_two):
+def is_anagram(word_one, word_two):
   return not(word_one[::-1] != word_two)
 
-print(isAnagram('roma','amor'))
+print(is_anagram('roma','amor'))
 print("----------------------")
 
 
@@ -48,7 +48,7 @@ print("----------------------")
 """
 
 print("-------Fibonacci Sequence--------")
-def fibonacciSequence():
+def fibonacci_sequence():
   index = 0
   n1 = fib =  0
   n2 = 1
@@ -60,5 +60,19 @@ def fibonacciSequence():
     index +=1
   
   
-fibonacciSequence()
+fibonacci_sequence()
+print("----------------------")
+
+"""
+  PRIME NUMBER
+
+"""
+print("-------Prime Number--------")
+def is_prime_number(number):
+  for i in range(2,number):
+    if(number % i == 0):
+      return False
+  return True
+
+print(is_prime_number(7))
 print("----------------------")
