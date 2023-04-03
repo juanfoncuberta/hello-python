@@ -1,0 +1,12 @@
+{
+   "Name": "Juan",
+   "Lastname": "Foncuberta",
+   "Birth": "8/5/1986",
+   "Languages": [
+    "Python",
+    "Javascript",
+    "Swift",
+    "PHP",
+    "MySql"
+   ]
+}
